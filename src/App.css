@@ -1,0 +1,63 @@
+div {
+    height: auto;
+    width: 80%;
+    /*border: 1px solid; */
+    border-radius: 10px;  
+    text-align: right;
+    max-width: 50rem;
+  
+    margin: 0 auto;
+  
+    margin-top: 150px;    
+  }
+  
+  h1 {                /*quote */
+    margin: 20px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .fadeIn {
+    opacity: 0;
+    display: block;
+    animation: slidein 1s ease-out forwards;
+  }
+  
+  @keyframes slidein {
+    0% {
+      opacity: 0;
+      transform: translateY(-25px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  p {                   /*author */
+    margin: 20px;
+    font-style: italic;
+    font-size: larger;
+    text-align: right;
+  }
+  
+  button {
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    margin: 20px;
+  }
+  /* #newquote {
+    margin: 20px;
+    position: relative;
+    /*border-radius: 5px;
+    height: 35px;
+    width: 100px; 
+    font-weight: 700;
+    font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
+    color: white;
+  
+    cursor: pointer;
+  } */
